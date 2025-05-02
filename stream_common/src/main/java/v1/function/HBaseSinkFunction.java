@@ -1,10 +1,10 @@
 package v1.function;
 
 import com.alibaba.fastjson.JSONObject;
-import com.lzy.stream.realtime.v1.bean.TableProcessDim;
-import com.lzy.stream.realtime.v1.constant.Constant;
-import com.lzy.stream.realtime.v1.utils.HBaseUtil;
-import com.lzy.stream.realtime.v1.utils.RedisUtil;
+import v1.bean.TableProcessDim;
+import v1.constant.Constant;
+import v1.utils.HBaseUtil;
+import v1.utils.RedisUtil;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;

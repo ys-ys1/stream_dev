@@ -5,10 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.bean.TrafficHomeDetailPageViewBean
- * @Author zheyuan.liu
- * @Date 2025/4/8 8:52
- * @description: TrafficHomeDetailPageViewBean
+ * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.bean.CartAddUuBean
+ * @Author yinshi
+ * @Date 2025/5/2 18:42
+ * @description: CartAddUuBean
  */
 
 @Data
