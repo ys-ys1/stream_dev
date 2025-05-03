@@ -1,10 +1,10 @@
 package v1.function;
 
 import com.alibaba.fastjson.JSONObject;
-import com.lzy.stream.realtime.v1.bean.DimJoinFunction;
-import com.lzy.stream.realtime.v1.constant.Constant;
-import com.lzy.stream.realtime.v1.utils.HBaseUtil;
-import com.lzy.stream.realtime.v1.utils.RedisUtil;
+import v1.bean.DimJoinFunction;
+import v1.constant.Constant;
+import v1.utils.HBaseUtil;
+import v1.utils.RedisUtil;
 import io.lettuce.core.api.StatefulRedisConnection;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.async.ResultFuture;
@@ -18,10 +18,10 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.v1.function.DimAsyncFunction
- * @Author zheyuan.liu
- * @Date 2025/4/17 14:31
- * @description: DimAsyncFunction
+ * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.constant.Constant
+ * @Author yinshi
+ * @Date 2025/5/3 14:09
+ * @description: Constant
  */
 
 

@@ -1,16 +1,17 @@
 package v1.function;
 
-import com.lzy.stream.realtime.v1.utils.KeywordUtil;
+import v1.utils.KeywordUtil;
 import org.apache.flink.table.annotation.DataTypeHint;
 import org.apache.flink.table.annotation.FunctionHint;
 import org.apache.flink.table.functions.TableFunction;
 import org.apache.flink.types.Row;
+import v1.utils.KeywordUtil;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.v1.function.KeywordUDTF
- * @Author zheyuan.liu
- * @Date 2025/4/18 18:57
- * @description: KeywordUDTF
+ * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.constant.Constant
+ * @Author yinshi
+ * @Date 2025/5/3 14:09
+ * @description: Constant
  */
 
 @FunctionHint(output = @DataTypeHint("ROW<word STRING>"))

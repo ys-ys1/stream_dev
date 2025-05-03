@@ -2,7 +2,7 @@ package v1.utils;
 
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.CaseFormat;
-import com.lzy.stream.realtime.v1.constant.Constant;
+import v1.constant.Constant;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.hadoop.conf.Configuration;
@@ -18,7 +18,7 @@ import java.util.Set;
 
 /**
  * @author Felix
- * @date 2024/5/27
+ * @date 2025/5/3
  * 操作HBase的工具类
  */
 public class HBaseUtil {

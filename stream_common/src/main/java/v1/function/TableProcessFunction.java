@@ -1,8 +1,8 @@
 package v1.function;
 
 import com.alibaba.fastjson.JSONObject;
-import com.lzy.stream.realtime.v1.bean.TableProcessDim;
-import com.lzy.stream.realtime.v1.utils.JdbcUtil;
+import v1.bean.TableProcessDim;
+import v1.utils.JdbcUtil;
 import org.apache.flink.api.common.state.BroadcastState;
 import org.apache.flink.api.common.state.MapStateDescriptor;
 import org.apache.flink.api.common.state.ReadOnlyBroadcastState;
@@ -15,10 +15,10 @@ import java.sql.Connection;
 import java.util.*;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.v1.function.TableProcessFunction
- * @Author zheyuan.liu
- * @Date 2025/4/11 9:03
- * @description:
+ * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.constant.Constant
+ * @Author yinshi
+ * @Date 2025/5/3 14:09
+ * @description: Constant
  */
 
 public class TableProcessFunction extends BroadcastProcessFunction<JSONObject, TableProcessDim, Tuple2<JSONObject,TableProcessDim>> {

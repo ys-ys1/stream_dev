@@ -1,7 +1,7 @@
 package v1.utils;
 
 import com.google.common.base.CaseFormat;
-import com.lzy.stream.realtime.v1.constant.Constant;
+import v1.constant.Constant;
 import org.apache.commons.beanutils.BeanUtils;
 
 import java.sql.*;
@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author Felix
- * @date 2024/5/28
+ * @date 2025/5/3
  * 通过JDBC操作MySQL数据库
  */
 public class JdbcUtil {

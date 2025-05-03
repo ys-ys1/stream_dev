@@ -1,11 +1,11 @@
 package v1.utils;
 
 
-import com.lzy.stream.realtime.v1.constant.Constant;
+import v1.constant.Constant;
 
 /**
  * @author Felix
- * @date 2024/6/04
+ * @date 2025/5/3
  * FlinkSQL操作的工具类
  */
 public class SQLUtil {

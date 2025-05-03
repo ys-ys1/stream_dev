@@ -1,6 +1,6 @@
 package v1.utils;
 
-import com.lzy.stream.realtime.v1.constant.Constant;
+import v1.constant.Constant;
 import com.ververica.cdc.connectors.mysql.source.MySqlSource;
 import com.ververica.cdc.connectors.mysql.table.StartupOptions;
 import com.ververica.cdc.debezium.JsonDebeziumDeserializationSchema;
@@ -13,7 +13,7 @@ import java.util.Properties;
 
 /**
  * @author Felix
- * @date 2024/5/28
+ * @date 2025/5/3
  * 获取相关Source的工具类
  */
 public class FlinkSourceUtil {

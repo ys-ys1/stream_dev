@@ -2,8 +2,8 @@ package v1.constant;
 
 /**
  * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.constant.Constant
- * @Author zheyuan.liu
- * @Date 2025/4/7 22:09
+ * @Author yinshi
+ * @Date 2025/5/3 14:09
  * @description: Constant
  */
 

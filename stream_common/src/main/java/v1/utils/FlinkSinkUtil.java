@@ -1,8 +1,8 @@
 package v1.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.lzy.stream.realtime.v1.bean.TableProcessDwd;
-import com.lzy.stream.realtime.v1.constant.Constant;
+import v1.bean.TableProcessDwd;
+import v1.constant.Constant;
 import org.apache.doris.flink.cfg.DorisExecutionOptions;
 import org.apache.doris.flink.cfg.DorisOptions;
 import org.apache.doris.flink.cfg.DorisReadOptions;
@@ -19,7 +19,7 @@ import java.util.Properties;
 
 /**
  * @author Felix
- * @date 2024/5/29
+ * @date 2025/5/3
  * 获取相关Source的工具类
  */
 public class FlinkSinkUtil {
