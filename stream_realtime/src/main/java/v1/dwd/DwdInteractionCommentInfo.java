@@ -1,7 +1,7 @@
 package v1.dwd;
 
-import com.lzy.stream.realtime.v1.constant.Constant;
-import com.lzy.stream.realtime.v1.utils.SQLUtil;
+import v1.constant.Constant;
+import v1.utils.SQLUtil;
 import org.apache.flink.streaming.api.CheckpointingMode;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.Table;
@@ -9,8 +9,8 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 /**
  * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.com.lzy.stream.realtime.v2.app.bwd.DwdInteractionCommentInfo
- * @Author zheyuan.liu
- * @Date 2025/4/11 15:50
+ * @Author yinshi
+ * @Date 2025/5/4 15:50
  * @description: DwdInteractionCommentInfo
  */
 

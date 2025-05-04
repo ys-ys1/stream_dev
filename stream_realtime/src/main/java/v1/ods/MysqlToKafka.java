@@ -1,7 +1,7 @@
 package v1.ods;
 
-import com.lzy.stream.realtime.v1.utils.FlinkSinkUtil;
-import com.lzy.stream.realtime.v1.utils.FlinkSourceUtil;
+import v1.utils.FlinkSinkUtil;
+import v1.utils.FlinkSourceUtil;
 import com.ververica.cdc.connectors.mysql.source.MySqlSource;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.connector.kafka.sink.KafkaSink;
@@ -11,8 +11,8 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 /**
  * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.app.ods.MysqlToKafka
- * @Author zheyuan.liu
- * @Date 2025/4/9 16:25、.
+ * @Author yinshi
+ * @Date 2025/5/4 16:25
  * @description: MysqlToKafka
  */
 

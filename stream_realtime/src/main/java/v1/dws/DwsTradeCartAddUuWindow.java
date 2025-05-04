@@ -2,11 +2,11 @@ package v1.dws;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.lzy.stream.realtime.v1.bean.CartAddUuBean;
-import com.lzy.stream.realtime.v1.function.BeanToJsonStrMapFunction;
-import com.lzy.stream.realtime.v1.utils.DateFormatUtil;
-import com.lzy.stream.realtime.v1.utils.FlinkSinkUtil;
-import com.lzy.stream.realtime.v1.utils.FlinkSourceUtil;
+import v1.bean.CartAddUuBean;
+import v1.function.BeanToJsonStrMapFunction;
+import v1.utils.DateFormatUtil;
+import v1.utils.FlinkSinkUtil;
+import v1.utils.FlinkSourceUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -32,8 +32,8 @@ import org.apache.flink.util.Collector;
 
 /**
  * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.com.lzy.stream.realtime.v2.app.dws.DwsTradeCartAddUuWindow
- * @Author zheyuan.liu
- * @Date 2025/4/21 14:31
+ * @Author yinshi
+ * @Date 2025/5/4 14:31
  * @description: DwsTradeCartAddUuWindow
  */
 

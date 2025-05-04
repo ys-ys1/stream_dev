@@ -1,7 +1,7 @@
 package v1.dwd;
 
-import com.lzy.stream.realtime.v1.constant.Constant;
-import com.lzy.stream.realtime.v1.utils.SQLUtil;
+import v1.constant.Constant;
+import v1.utils.SQLUtil;
 import org.apache.flink.streaming.api.CheckpointingMode;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.Table;
@@ -11,8 +11,8 @@ import java.time.Duration;
 
 /**
  * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.com.lzy.stream.realtime.v2.app.bwd.DwdTradeOrderRefund
- * @Author zheyuan.liu
- * @Date 2025/4/14 11:26
+ * @Author yinshi
+ * @Date 2025/5/4 15:26
  * @description: DwdTradeOrderRefund
  */
 
