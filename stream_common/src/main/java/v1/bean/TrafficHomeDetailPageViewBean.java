@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.bean.CartAddUuBean
+ * @Package v1.realtime.bean.CartAddUuBean
  * @Author yinshi
  * @Date 2025/5/2 18:42
  * @description: CartAddUuBean

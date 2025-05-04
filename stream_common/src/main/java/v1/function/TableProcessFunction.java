@@ -15,7 +15,7 @@ import java.sql.Connection;
 import java.util.*;
 
 /**
- * @Package com.lzy.retail.com.lzy.stream.realtime.v1.realtime.constant.Constant
+ * @Package v1.realtime.constant.Constant
  * @Author yinshi
  * @Date 2025/5/3 14:09
  * @description: Constant
