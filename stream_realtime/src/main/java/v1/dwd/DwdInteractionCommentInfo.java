@@ -8,7 +8,7 @@ import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.com.lzy.stream.realtime.v2.app.bwd.DwdInteractionCommentInfo
+ * @Package v2.app.bwd.DwdInteractionCommentInfo
  * @Author yinshi
  * @Date 2025/5/4 15:50
  * @description: DwdInteractionCommentInfo
@@ -82,6 +82,6 @@ public class DwdInteractionCommentInfo {
         // 写入
         joinedTable.executeInsert(Constant.TOPIC_DWD_INTERACTION_COMMENT_INFO);
 
-        env.execute("dwd_join");
+        env.disableOperatorChaining();
     }
 }

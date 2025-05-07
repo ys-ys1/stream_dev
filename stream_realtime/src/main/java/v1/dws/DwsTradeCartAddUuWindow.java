@@ -31,7 +31,7 @@ import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.com.lzy.stream.realtime.v2.app.dws.DwsTradeCartAddUuWindow
+ * @Package v2.app.dws.DwsTradeCartAddUuWindow
  * @Author yinshi
  * @Date 2025/5/4 14:31
  * @description: DwsTradeCartAddUuWindow

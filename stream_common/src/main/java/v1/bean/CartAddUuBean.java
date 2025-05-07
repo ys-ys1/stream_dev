@@ -3,6 +3,8 @@ package v1.bean;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @Package v1.realtime.bean.CartAddUuBean
  * @Author yinshi
@@ -12,7 +14,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CartAddUuBean {
+public class CartAddUuBean implements Serializable {
     String stt;
     String edt;
     String curDate;

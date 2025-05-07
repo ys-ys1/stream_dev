@@ -27,7 +27,7 @@ import org.apache.flink.util.Collector;
 import org.apache.hadoop.hbase.client.Connection;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.v1.base.BaseApp
+ * @Package v1.base.BaseApp
  * @Author yinshi
  * @Date 2025/5/4 18:39
  * @description: BaseApp

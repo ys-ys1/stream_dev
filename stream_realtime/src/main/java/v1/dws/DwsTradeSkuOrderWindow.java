@@ -31,7 +31,7 @@ import java.math.BigDecimal;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Package com.lzy.stream.realtime.com.lzy.stream.realtime.com.lzy.stream.realtime.v2.app.dws.DwsTradeSkuOrderWindow
+ * @Package v2.app.dws.DwsTradeSkuOrderWindow
  * @Author yinshi
  * @Date 2025/5/4 15:52
  * @description: DwsTradeSkuOrderWindow
@@ -87,8 +87,8 @@ public class DwsTradeSkuOrderWindow {
                             long currentProcessingTime = ctx.timerService().currentProcessingTime();
                             ctx.timerService().registerProcessingTimeTimer(currentProcessingTime + 5000L);
                         } else {
-                            String lastTs = lastJsonObj.getString("聚合时间戳");
-                            String curTs = jsonObj.getString("聚合时间戳");
+                            String lastTs = lastJsonObj.getString("ts_ms");
+                            String curTs = jsonObj.getString("ts_ms");
                             if (curTs.compareTo(lastTs) >= 0) {
                                 lastJsonObjState.update(jsonObj);
                             }
