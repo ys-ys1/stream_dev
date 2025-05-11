@@ -19,4 +19,5 @@ public class CartAddUuBean implements Serializable {
     String edt;
     String curDate;
     Long cartAddUuCt;
+
 }
