@@ -29,4 +29,5 @@ public class TableProcessDwd {
 
     // 配置表操作类型
     String op;
+
 }
