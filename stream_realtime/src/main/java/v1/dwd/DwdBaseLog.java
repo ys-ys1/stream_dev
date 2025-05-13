@@ -34,7 +34,6 @@ import java.util.Map;
  */
 
 public class DwdBaseLog {
-
     private static final String START = "start";
     private static final String ERR = "err";
     private static final String DISPLAY = "display";
