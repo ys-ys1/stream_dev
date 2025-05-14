@@ -15,5 +15,4 @@ public interface DimJoinFunction<T> {
     String getTableName() ;
 
     String getRowKey(T obj) ;
-
 }

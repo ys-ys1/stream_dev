@@ -38,7 +38,6 @@ public class BaseApp {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         env.setParallelism(4);
-
         env.enableCheckpointing(5000L , CheckpointingMode.EXACTLY_ONCE);
 
         KafkaSource<String> kafkaSource = FlinkSourceUtil.getKafkaSource(Constant.TOPIC_DB, "dim_app");
