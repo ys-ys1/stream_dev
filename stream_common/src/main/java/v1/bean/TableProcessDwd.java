@@ -17,7 +17,6 @@ import lombok.NoArgsConstructor;
 public class TableProcessDwd {
     // 来源表名
     String sourceTable;
-
     // 来源类型
     String sourceType;
 
