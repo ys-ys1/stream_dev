@@ -38,7 +38,6 @@ public class DwdTradeOrderCancelDetail {
                 ")" + SQLUtil.getKafkaDDL(Constant.TOPIC_DB, Constant.TOPIC_DWD_INTERACTION_COMMENT_INFO));
 //        tableEnv.executeSql("select * from topic_db").print();
 
-
         tableEnv.executeSql("CREATE TABLE base_dic (\n" +
                 " dic_code string,\n" +
                 " info ROW<dic_name string>,\n" +
