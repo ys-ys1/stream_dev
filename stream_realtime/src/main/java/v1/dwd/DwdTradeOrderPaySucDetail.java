@@ -24,6 +24,7 @@ public class DwdTradeOrderPaySucDetail {
 
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);
 
+
         env.enableCheckpointing(5000L, CheckpointingMode.EXACTLY_ONCE);
 
         tableEnv.getConfig().setIdleStateRetention(Duration.ofSeconds(30 * 60 + 5));
