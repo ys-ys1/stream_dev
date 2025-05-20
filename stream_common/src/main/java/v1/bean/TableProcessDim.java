@@ -21,4 +21,5 @@ public class TableProcessDim {
     String sinkFamily;
     String sinkRowKey;
     String op;
+
 }
