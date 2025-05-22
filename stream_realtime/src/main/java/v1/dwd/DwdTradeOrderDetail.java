@@ -19,7 +19,6 @@ import java.time.Duration;
 public class DwdTradeOrderDetail {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-
         env.setParallelism(4);
 
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);

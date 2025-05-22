@@ -17,4 +17,5 @@ public class TradeProvinceOrderAmount {
     String provinceName;
     // 下单金额
     Double orderAmount;
+
 }
