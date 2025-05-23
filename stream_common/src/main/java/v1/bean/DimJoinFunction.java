@@ -13,6 +13,5 @@ public interface DimJoinFunction<T> {
     void addDims(T obj, JSONObject dimJsonObj) ;
 
     String getTableName() ;
-
     String getRowKey(T obj) ;
 }
