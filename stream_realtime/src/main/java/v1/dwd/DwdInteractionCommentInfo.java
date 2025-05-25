@@ -16,7 +16,6 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 public class DwdInteractionCommentInfo {
     public static void main(String[] args) throws Exception {
-
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         env.setParallelism(4);
