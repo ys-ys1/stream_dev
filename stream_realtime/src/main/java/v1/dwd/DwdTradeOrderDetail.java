@@ -20,6 +20,7 @@ public class DwdTradeOrderDetail {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(4);
+
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);
 
         env.enableCheckpointing(5000L, CheckpointingMode.EXACTLY_ONCE);
